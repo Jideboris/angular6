@@ -7,10 +7,7 @@ import { User } from "./model/user"
   providedIn: 'root'
 })
 export class AppService {
-  users: User[]
-  user: User
   constructor() {
-    
   }
   public getUsers() {
 
@@ -19,9 +16,9 @@ export class AppService {
     { id: 1, firstName: 'Hary', lastName: 'Pan', email: 'hary@gmail.com' },
     { id: 1, firstName: 'praks', lastName: 'pb', email: 'praks@gmail.com' },
     ];
-    
+
     return of(fakeUsers)
 
-  
+
   }
 }
