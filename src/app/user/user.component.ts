@@ -13,7 +13,5 @@ export class UserComponent implements OnInit {
     this.apiService.getUsers().subscribe(
       data => this.users = data)
   }
-  trackChanged(track){
-    console.log("YES!! " + track)
-}
+  
 }

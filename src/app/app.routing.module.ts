@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router'
 import { UserComponent } from '../app/user/user.component'
 import { LoginComponent } from '../app/login/login.component'
 const routes: Routes = [
-    { path: 'user', component: UserComponent },
-    { path: 'login', component: LoginComponent },
-    { path: '', component: LoginComponent }
+    { path: '', component: UserComponent },
+   // { path: 'login', component: LoginComponent },
+  //  { path: '', component: LoginComponent }
 ];
 @NgModule({
     imports: [
