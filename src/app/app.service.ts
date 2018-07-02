@@ -17,6 +17,7 @@ export class AppService {
     ];
     return of(fakeUsers)
   }
+  
   // getLiveUsers(): Observable<User[]> {
   //   return this.http.get<User[]>(this.url)
   // }
